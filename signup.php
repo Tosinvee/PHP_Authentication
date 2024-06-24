@@ -3,7 +3,7 @@
 include_once 'resources/database.php';
 include_once 'resources/validate.php';
 
-// process the form
+// if the signup button is clicked process the form
 if(isset($_POST['signupBtn'])){ // checks if the request was submitted
 $form_errors = array();
 
