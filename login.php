@@ -69,13 +69,16 @@ if(empty($form_errors)){
     <?php if(isset($result)) echo $result; ?>
     <?php if(!empty($form_errors)) echo show_errors($form_errors) ?>
 
-    <form action="" method="post"></form>
+    <form action="" method="post">
     <table>
         <tr><td>Email:</td> <td><input type="text" name "email" value=""></td></tr>
         <tr><td>Password:</td> <td><input type="password" name="password" value=""></td></tr>
         <tr><td></td> <td><input style="float:right;" type="submit" name="loginBtn" value="Signin"></td></tr>
         
     </table>
+    </form>
+    
+
 
     <p> <a href="index.php">Back</a></p>
     
